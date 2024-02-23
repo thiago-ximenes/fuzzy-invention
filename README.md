@@ -14,6 +14,7 @@ O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o fr
 - Crie uma tela de feed que consuma dados da API escolhida.
 - Estude os componentes do [Kendo UI](https://www.telerik.com/kendo-react-ui/components/grid/).
 - Integre pelo menos o componente de grid do Kendo UI na aplicação.
+    - Faça as colunas da sua grid serem filtraveis
 
 3. **Documentação no README:**
 - No README.md descreva as instruções sobre como executar o projeto, configurar variáveis de ambiente e executar os testes.
