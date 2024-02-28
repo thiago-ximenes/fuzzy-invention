@@ -14,13 +14,14 @@ O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o fr
 - Crie uma tela de feed que consuma dados da API escolhida.
 - Estude os componentes do [Kendo UI](https://www.telerik.com/kendo-react-ui/components/grid/).
 - Integre pelo menos o componente de grid do Kendo UI na aplicação.
-    - Faça as colunas da sua grid serem filtraveis
+    - Faça as colunas da sua grid serem filtráveis
 
 3. **Documentação no README:**
 - No README.md descreva as instruções sobre como executar o projeto, configurar variáveis de ambiente e executar os testes.
 
 **Observações:**
 - Adote boas práticas de codificação, use comentários só quando extremamente necessário, prefira código mais limpo que dispense comentários para explicar.
+- É possível solicitar uma licença gratuita ao kendo, mas **não é necessário**, os componentes continuam funcionando e exibindo uma marca d'água de não licenciado
 - Ao finalizar, forneça um link para o repositório do GitHub contendo o código-fonte e a documentação, enviado para o email vagas{at}oxeanbits{dot}com
 
 **Pontos Extras:**
