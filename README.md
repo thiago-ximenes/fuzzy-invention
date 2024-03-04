@@ -2,9 +2,24 @@ Este é um projeto [Next.js](https://nextjs.org/) criado com  [`create-next-app`
 
 A aplicação consiste em uma busca de produtos utilizando a api do mercado livre.
 
+![img.png](.github/images/app.png)
+
 As funcionalidades consistem em:
 - Pesquisar por um produto no campo de busca
-- ![img.png](.github/images/search.png)
+
+![img.png](.github/images/search.png)
+
+- Filtrar por um produto na tela
+
+![img.png](.github/images/filter-by-product.png)
+
+- Filtrar por preço na tela
+
+![img.png](.github/images/filter-by-price.png)
+
+- Paginação dos produtos
+
+![img.png](.github/images/pagination.png)
 
 ## Começando
 
