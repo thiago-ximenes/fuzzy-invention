@@ -1,29 +1,49 @@
-**Desafio para vaga de FrontEnd - Foco em React:**
+Este é um projeto [Next.js](https://nextjs.org/) criado com  [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**Objetivo do Desafio:**
+A aplicação consiste em uma busca de produtos utilizando a api do mercado livre.
 
-O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o framework React, a sua familiaridade com o uso de hooks, a integração de uma API externa de sua escolha, a implementação de componentes do Kendo UI, a escrita de testes usando Jest e a criação de uma documentação clara.
+As funcionalidades consistem em:
+- Pesquisar por um produto no campo de busca
+- ![img.png](.github/images/search.png)
 
-**Tarefas:**
+## Começando
 
-1. **Criação de um Projeto de Exemplo:**
-- Inicie um novo projeto React.
-- Escolha uma API para consumir dados fictícios (ghiphy, imdb... ).
+Primeiro, instale as dependências:
 
-2. **Implementação de uma Tela de Feed integrando com o Kendo UI:**
-- Crie uma tela de feed que consuma dados da API escolhida.
-- Estude os componentes do [Kendo UI](https://www.telerik.com/kendo-react-ui/components/grid/).
-- Integre pelo menos o componente de grid do Kendo UI na aplicação.
-    - Faça as colunas da sua grid serem filtráveis
+```bash
+npm install
+# or
+yarn install
+```
 
-3. **Documentação no README:**
-- No README.md descreva as instruções sobre como executar o projeto, configurar variáveis de ambiente e executar os testes.
+No caso deste desafio, foi utilizado a api do mercado livre para a busca produtos, basta apenas utilizar o .env.example que já está configurado para que a busca funcione.
 
-**Observações:**
-- Adote boas práticas de codificação, use comentários só quando extremamente necessário, prefira código mais limpo que dispense comentários para explicar.
-- É possível solicitar uma licença gratuita ao kendo, mas **não é necessário**, os componentes continuam funcionando e exibindo uma marca d'água de não licenciado
-- Ao finalizar, forneça um link para o repositório do GitHub contendo o código-fonte e a documentação, enviado para o email vagas{at}oxeanbits{dot}com
+```bash
+cp .env.example .env
+```
 
-**Pontos Extras:**
-- Implemente testes unitários usando [Jest](https://jestjs.io/docs/tutorial-react) para pelo menos uma funcionalidade crítica da aplicação.
-- Fazer que aplicação seja responsiva.
+Porém, se por algum motivo a api do mercado livre mudar, basta apenas alterar a variável de ambiente `NEXT_PUBLIC_MERCADO_LIVRE_SEARCH_URL` no arquivo `.env` para que a busca funcione.
+
+```bash
+NEXT_PUBLIC_MERCADO_LIVRE_SEARCH_URL=https://api.mercadolibre.com/sites/MLB/search
+```
+
+Em seguida, execute o servidor de desenvolvimento:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
+
+## Executando os testes
+
+Para executar os testes, execute o seguinte comando:
+
+```bash
+npm run test
+# or
+yarn test
+```
